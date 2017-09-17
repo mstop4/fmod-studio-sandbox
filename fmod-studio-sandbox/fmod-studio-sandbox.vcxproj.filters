@@ -16,6 +16,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{5568983b-79e5-4747-93f9-cde36bc35152}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="fmod_studio_api\fmod.h">
@@ -42,6 +45,9 @@
     <ClInclude Include="fmod_studio_api\fmod_output.h">
       <Filter>Header Files\fmod_studio_api</Filter>
     </ClInclude>
+    <ClInclude Include="fmodgms.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Library Include="fmod_vc.lib">
@@ -55,5 +61,10 @@
     <ClCompile Include="fmodgms.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ffmq-mine.mid">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

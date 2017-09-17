@@ -1,20 +1,19 @@
 #include <iostream>
-#include "fmodgms.cpp"
+#include "fmodgms.hpp"
 
 int main()
 {
-	int foo;
 	FMODGMS fmodgms;
 
 	std::cout << "Hello World!" << std::endl;
 
 	fmodgms.Sys_Create();
 	fmodgms.Sys_Init();
+	fmodgms.Snd_Load("ffmq-mine.mid");
+	fmodgms.Snd_Play(0, 0);
 
-	std::cin >> foo;
+	system("pause");
 
 	fmodgms.Sys_Close();
-
-	std::cin >> foo;
 	return 0;
 }
