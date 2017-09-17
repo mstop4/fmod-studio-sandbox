@@ -53,12 +53,12 @@
     <Library Include="fmod_vc.lib">
       <Filter>Library Files</Filter>
     </Library>
+    <Library Include="FMODGMS.lib">
+      <Filter>Library Files</Filter>
+    </Library>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="fmodgms.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

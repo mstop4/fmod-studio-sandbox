@@ -125,10 +125,10 @@
     <ClInclude Include="fmod_studio_api\fmod_output.h" />
   </ItemGroup>
   <ItemGroup>
+    <Library Include="FMODGMS.lib" />
     <Library Include="fmod_vc.lib" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="fmodgms.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>

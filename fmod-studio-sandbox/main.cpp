@@ -7,13 +7,13 @@ int main()
 
 	std::cout << "Hello World!" << std::endl;
 
-	fmodgms.Sys_Create();
-	fmodgms.Sys_Init();
-	fmodgms.Snd_Load("ffmq-mine.mid");
-	fmodgms.Snd_Play(0, 0);
+	fmodgms.sys_create();
+	fmodgms.sys_initialize();
+	fmodgms.snd_loadSound("ffmq-mine.mid");
+	fmodgms.snd_playSound(0, 0);
 
 	system("pause");
 
-	fmodgms.Sys_Close();
+	fmodgms.sys_close();
 	return 0;
 }
