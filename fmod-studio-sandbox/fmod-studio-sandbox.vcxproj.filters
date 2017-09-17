@@ -9,9 +9,48 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
+    <Filter Include="Header Files\fmod_studio_api">
+      <UniqueIdentifier>{80f62491-5b09-4095-be79-dce3eca26351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fmod_studio_api\fmod.h">
+      <Filter>Header Files\fmod_studio_api</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_studio_api\fmod.hpp">
+      <Filter>Header Files\fmod_studio_api</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_studio_api\fmod_codec.h">
+      <Filter>Header Files\fmod_studio_api</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_studio_api\fmod_common.h">
+      <Filter>Header Files\fmod_studio_api</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_studio_api\fmod_dsp.h">
+      <Filter>Header Files\fmod_studio_api</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_studio_api\fmod_dsp_effects.h">
+      <Filter>Header Files\fmod_studio_api</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_studio_api\fmod_errors.h">
+      <Filter>Header Files\fmod_studio_api</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_studio_api\fmod_output.h">
+      <Filter>Header Files\fmod_studio_api</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="fmod_vc.lib">
+      <Filter>Library Files</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
