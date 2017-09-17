@@ -1,12 +1,20 @@
 #include <iostream>
-#include "./fmod_studio_api/fmod.hpp"
-#include "./fmod_studio_api/fmod_errors.h"
+#include "fmodgms.cpp"
 
 int main()
 {
 	int foo;
+	FMODGMS fmodgms;
 
 	std::cout << "Hello World!" << std::endl;
+
+	fmodgms.Sys_Create();
+	fmodgms.Sys_Init();
+
+	std::cin >> foo;
+
+	fmodgms.Sys_Close();
+
 	std::cin >> foo;
 	return 0;
 }

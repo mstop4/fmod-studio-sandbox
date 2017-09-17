@@ -127,6 +127,7 @@
     <Library Include="fmod_vc.lib" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="fmodgms.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
